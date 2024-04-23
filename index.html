@@ -3303,7 +3303,7 @@
                           class="wdp-name namatamu"
                           style="width: auto !important"
                         >
-                          Keluar Berkah Group
+                          <p id="kepada"></p>
                         </div>
                         <div class="wdp-text" style="width: auto !important">
                           *mohon maaf jika ada kesalahan penulisan nama dan
@@ -3914,6 +3914,9 @@
       src="https://mahabbahinvitation.com/wp-content/plugins/weddingpress/assets/js/guest-form.js?ver=3.1.9"
       id="kirim-kit-js"
     ></script>
+	  <script>
+function GetURLParameter(e){for(var t=window.location.search.substring(1).split("&"),r=0;r<t.length;r++){var a=t[r].split("=");if(a[0]==e)return a[1]}}var ke=GetURLParameter("kepada");document.getElementById("kepada").innerHTML=decodeURIComponent(ke);
+</script>
   </body>
 </html>
 
